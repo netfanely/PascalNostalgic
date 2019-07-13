@@ -1,6 +1,8 @@
 ////////////// HOLA MUNDO EN PASCAL /////////////
-program holamundo
+Program Hello(input, output);
+    uses crt;
 
     begin
         writeln('hola mundo');
-    end;
+        readkey;
+    end.
